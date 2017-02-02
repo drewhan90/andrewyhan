@@ -7,7 +7,7 @@
   "author": "Andrew Yeonsoo Han <drewhan90@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server -hot",
     "lint": "esw --ext .js --ext .jsx client --debug --color --watch",
     "dev": "npm-run-all -p start lint"
   },
@@ -15,6 +15,7 @@
     "html-webpack-plugin": "^2.28.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^1.16.3"
   },
