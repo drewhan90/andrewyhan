@@ -1,0 +1,37 @@
+// Univseral Reset
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+// Remove the gap between audio, canvas, iframes,
+// images, videos and the bottom of their containers
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+// Allow only vertical resizing of textareas
+textarea {
+    resize: vertical;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

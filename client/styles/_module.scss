@@ -1,0 +1,35 @@
+.navBtn {
+    position: absolute;
+    display: block;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    
+
+    border-radius: 15px;
+}
+
+.aboutBtn {
+    top: 0;
+    left: 0;
+    
+    background-color: $yellow;
+}
+.portfolioBtn {
+    top: 0;
+    right: 0;
+
+    background-color: $green;
+}
+.contactBtn {
+    bottom: 0;
+    left: 0;
+
+    background-color: $red;
+}
+.resumeBtn {
+    bottom: 0;
+    right: 0;
+
+    background-color: $blue;
+}

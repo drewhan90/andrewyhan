@@ -1,19 +1,31 @@
 import React from 'react';
-// import { Link } from 'react-router';
 
-const Main = React.createClass({
-  render() {
+class Main extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+    };
+  }
+  render(){
     return (
-      <div>
-        <nav>
-          <ul>
-            <li>hello</li>
-          </ul>
-        </nav>
-        { React.cloneElement(this.props.children, this.props) }
+      <div id="mainContainer">
+        <Nav />
+        <div id="mainMsg">
+          <h1></h1>
+        </div>
       </div>
     )
   }
-});
+}
+
+const Nav = (props) => 
+  <nav id="mainNav">
+    <ul>
+      <li><button className="aboutBtn navBtn"></button></li>
+      <li><button className="portfolioBtn navBtn"></button></li>
+      <li><button className="contactBtn navBtn"></button></li>
+      <li><button className="resumeBtn navBtn"></button></li>
+    </ul>
+  </nav>
 
 export default Main;

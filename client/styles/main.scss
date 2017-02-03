@@ -1,4 +1,4 @@
-.example {
-    color: red;
-    font-size: 4rem;
-}
+@import 'variables';
+@import 'base';
+@import 'layout';
+@import 'module';
